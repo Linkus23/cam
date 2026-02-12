@@ -1,0 +1,39 @@
+%
+(0.191 drill mounty tube 440)
+(T13 D=0.191 CR=0. TAPER=118deg - ZMIN=-1.1 - drill)
+G90 G54 G64 G50 G17 G40 G80 G94 G91.1 G49
+G20 (Inch)
+G30
+
+N10 (Drill1)
+T13 G43 H13 M6
+S2500 M3
+G17 G90 G94
+G54
+G0 X0.5 Y0.5
+G0 Z0.8
+G0 Z0.4
+G98 G81 X0.5 Y0.5 Z-1.1 R0.1 F20.
+X1.
+X1.5
+X2.
+X2.5
+X3.
+X3.5
+X4.
+X4.5
+X5.
+X5.5
+X6.
+X6.5
+X7.
+X7.5
+X8.
+X8.5
+G80
+G0 Z0.8
+M5
+
+G30
+M30
+%
